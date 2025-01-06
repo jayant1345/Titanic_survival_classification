@@ -9,15 +9,25 @@ However, before you go ahead and make a prediction, it is advised that you first
 # Data Details:
 
 Passengerid : 	Self Explanatory
+
 Survived : 	Self Explanatory 
+
 pclass 		Ticket class
+
 sex 		Sex
+
 Age 		Age in years
+
 sibsp 		# of siblings / spouses aboard the Titanic
+
 parch 		# of parents / children aboard the Titanic
+
 ticket 		Ticket number
+
 fare 		Passenger fare
+
 cabin 		Cabin number
+
 embarked 	Port of Embarkation
 
 # Part-1: Data Exploration and Pre-processing
