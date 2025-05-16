@@ -69,5 +69,3 @@ Developed by Jayant Jayswal https://github.com/jayant1345
 as part of the Fingertips ML Projects.
 
 ---
-
-### 📎 [Click here to download the README.md](sandbox:/mnt/data/README_Titanic_Survival.md)
