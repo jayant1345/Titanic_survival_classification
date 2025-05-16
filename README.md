@@ -1,52 +1,73 @@
-# Titanic_survival_classification
-## ML Project - Logistic Regression Titanic Survival
+# Titanic Survival Prediction Using Random Forest
 
-# Project Description:
+This project is part of the **Fingertips Machine Learning Projects** series. It aims to predict the survival of passengers aboard the Titanic using a Random Forest Classifier. The dataset used is the famous [Titanic dataset](https://www.kaggle.com/c/titanic) from Kaggle.
 
-In this particular project, we are using a dataset that contains information like, Passengerid, Survived,pclass, sex, Age, sibsp, parch, ticket, fare, cabin, embarked. and using that data we are going to predict the survived passengers.
-However, before you go ahead and make a prediction, it is advised that you first pre-process the data, since it may contain some irregularities and noise. In addition, try various tricks and techniques in order to gain the best accuracy in your predictions.
+## 📊 Project Objective
 
-# Data Details:
+The objective is to build a predictive model that can accurately determine whether a passenger survived the Titanic disaster, using various features such as age, gender, class, fare, and family relations.
 
-Passengerid : 	Self Explanatory
+## 🛠️ Technologies Used
 
-Survived : 	Self Explanatory 
+- Python 🐍
+- Jupyter Notebook 📓
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
+- Random Forest Classifier
 
-pclass 		Ticket class
+## 📁 Project Structure
 
-sex 		Sex
+```bash
+fingertips_project6_titanic_survival/
+├── fingertips_project6_titanic_survival.ipynb
+├── README.md
+└── dataset/
+    └── train.csv
 
-Age 		Age in years
+```
 
-sibsp 		# of siblings / spouses aboard the Titanic
+🔍 Workflow
+Data Loading – Load Titanic dataset
 
-parch 		# of parents / children aboard the Titanic
+Data Exploration – Summary stats and visualizations
 
-ticket 		Ticket number
+Data Cleaning – Handle missing values and convert categorical variables
 
-fare 		Passenger fare
+Feature Engineering – Create new features, drop irrelevant ones
 
-cabin 		Cabin number
+Model Building – Random Forest Classifier
 
-embarked 	Port of Embarkation
+Evaluation – Accuracy, confusion matrix, classification report
 
-# Part-1: Data Exploration and Pre-processing
+📈 Model Accuracy
+The Random Forest model achieved good performance in classifying survival outcomes using default parameters. You may tune hyperparameters for better results.
 
-1) load the given dataset 
-2) print all the column names 
-3) describe the data
-4) check the null value 
-5) if there are Null values, Handle these
+📊 Sample Visualizations
+Survival rates by class and gender
 
-# Part-2: Working with Models 
+Correlation heatmap
 
-1) Create the target data and feature data where target data is survived
-2) Split the data into Training and testing Set 
-3) Create a Logistic regression model for Target and feature data 
-4) Display the Confusion Matrix
-5) Find the Accuracy Score 
-6) Find the Precision Score 
-7) Find the Recall Score 
-8) Find the F1 Score 
-9) Find the probability of testing data 
-10) Display ROC Curve and find the AUC score
+Distribution plots (age, fare)
+
+Feature importance plot from the model
+
+🧠 Future Improvements
+GridSearchCV for hyperparameter tuning
+
+Ensemble learning methods
+
+Cross-validation
+
+💡 Conclusion
+This notebook demonstrates the complete ML pipeline for classification tasks. Titanic dataset is ideal for beginners learning preprocessing, model training, and evaluation.
+
+📎 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Developed by Jayant Jayswal https://github.com/jayant1345
+as part of the Fingertips ML Projects.
+
+---
+
+### 📎 [Click here to download the README.md](sandbox:/mnt/data/README_Titanic_Survival.md)
